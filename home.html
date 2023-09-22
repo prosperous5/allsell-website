@@ -3,45 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products - ALLSELL</title>
+    <title>ALLSELL</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    
+
 </head>
 <body>
-    <div class="cat-2">
+    
+    
+    <div class="header">
     <div class="container">
    <div class="navbar">
    <div class="logo">
-   <a href="home.html"><img src="IMAGES/logo.png" width="125px"></a>
+       <a href="home.html"><img src="IMAGES/logo.png" width="125px"></a>
 </div>
 <nav>
     <ul id="MenuItems">
-        <li><a href="../E-COMMERCE/home.html">HOME</a></li>
-        <li><a href="../E-COMMERCE/product.html">PRODUCTS</a></li>
-        <li><a href="../E-COMMERCE/about.html">ABOUT</a></li>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="product.html">PRODUCTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
         <li><a href="login.html"><img src="IMAGES/user.png" width="30px" height="30px"></a></li>
+        
     </ul>
 </nav>
        <a href="cart.html"><img src="IMAGES/cart.png" width="30px" height="30px"></a>
        <img src="IMAGES/menu.png" class="menu-icon" onclick="menutoggle()">
    </div>
-</div>  
+        <div class="row">
+        <div class="col-2">
+            <h1> For All Your Closet <br> Needs</h1>
+            <p> You See It, You Like it, You check the price, You buy it.</p>
+            <a href="../E-COMMERCE/product.html" class="btn">Explore &#8594</a>
+            </div>
+            <div class="col-2">
+                <img src="IMAGES/pair2.png">
+                        </div>
+                    </div>
+                 </div>
+             </div> 
+<!------ featured categories ------>
+    <div class="cat-1">
+    <h2 class="title">Featured Categories</h2>
+    <div class="categories">
     <div class="small-container">
-        
-        <div class="row row-2">
-            <h2>All Products</h2>
-            <select>
-                <option>Default sorting</option>
-                <option>sort by price</option>
-                <option>sort by popularity</option>
-                <option>sort by rating</option>
-                <option>sort by sale</option>
-            </select>
+    <div class="row">
+        <div class="col-3">
+            <a href="">
+            <h3>PAIR</h3>
+                <a href="pair.html"><img src="IMAGES/pair1.png"></a>
+      </a>      
+    </div>
+        <div class="col-3">
+            <a href="">
+            <h3>SHIRTS</h3>
+        <img src="IMAGES/shirt2.png">
+          </a>  
         </div>
-        <div class="row">           
+        <div class="col-3">
+            <a href="">
+                <h3>T-SHIRTS</h3>
+        <img src="IMAGES/tshirt1.png">
+                </a>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+        <!-- featured products -->
+    <h2 class="title">Featured Products</h2>
+    <div class="small-container">
+        <div class="row">
+           
+            
 <div class="col-4">
         <img src="IMAGES/pair3.png">
     <h4>Ribbon Shirt</h4>
@@ -69,17 +107,17 @@
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
-    <span style="font-size:150%;color:red;">&star;</span> 
+    <span style="font-size:150%;color:red;">&star;</span>             
     <p>KSH 2000</p>
         </div> 
-         <div class="col-4">
+            <div class="col-4">
         <img src="IMAGES/shirt1.png">
     <h4>Blue Shirt</h4>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
-    <span style="font-size:150%;color:red;">&star;</span>          
+    <span style="font-size:150%;color:red;">&star;</span>             
     <p>KSH 1000</p>
         </div>
             <div class="col-4">
@@ -102,14 +140,14 @@
     <span style="font-size:150%;color:red;">&star;</span>             
     <p>KSH 1000</p>
         </div>
-          <div class="col-4">
+        <div class="col-4">
         <img src="IMAGES/tshirt2.png" width="250px" height="350px">
     <h4>Flamy T-shirt</h4>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
-    <span style="font-size:150%;color:red;">&star;</span>           
+    <span style="font-size:150%;color:red;">&star;</span>         
     <p>KSH 1000</p>
         </div>
             <div class="col-4">
@@ -119,7 +157,7 @@
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
-    <span style="font-size:150%;color:red;">&star;</span>             
+    <span style="font-size:150%;color:red;">&star;</span>            
     <p>KSH 1000</p>
         </div>
             <div class="col-4">
@@ -129,18 +167,48 @@
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
     <span style="font-size:150%;color:red;">&starf;</span>
-    <span style="font-size:150%;color:red;">&star;</span>            
+    <span style="font-size:150%;color:red;">&star;</span>             
     <p>KSH 1000</p>
         </div>
         </div>
-        <div class="page-btn">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>    
-        <span>4</span>
-        <span>&rarr;</span>    
-        </div>
     </div>
+    <!----offer---->
+    <div class="offer">
+        <div class="small container">
+            <div class="row">
+                <div class="col-2">
+                <img src="IMAGES/pair7.png" class="offer-img">
+                </div>
+            <div class="col-2">
+                <p>Limited Offer on AllSell</p>
+                <h1>Cozy Beach Pair</h1>
+                <small></small>
+                <a href="" class="btn">BUY NOW &#8594;</a>
+                </div>'
+            </div> 
+             </div>
+    </div>
+<!-----brands----->
+     <div class="brands">
+        <div class="small container">
+            <div class="row">
+                <div class="col-5">
+                <img src="IMAGES/airtel.png" class="offer-img" width="50px" height="50px">
+                </div>
+                <div class="col-5">
+                <img src="IMAGES/mpesa.png" class="offer-img" width="50px" height="50px">
+                </div>
+                <div class="col-5">
+                <img src="IMAGES/lacoste.png" class="offer-img" width="50px" height="50px">
+                </div>
+                <div class="col-5">
+                <img src="IMAGES/louis.png" class="offer-img" width="60px" height="60px">
+                </div>
+                <div class="col-5">
+                <img src="IMAGES/nike.png" class="offer-img" width="50px" height="50px">
+                </div>
+            </div>
+         </div>
     </div>
     <!----footer---->
      <div class="footer">
